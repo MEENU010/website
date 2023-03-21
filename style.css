@@ -1,0 +1,1183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow" ,"sans-serif";
+    line-height: 1.7;
+    color: #516171;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+
+}
+
+a {
+    color:#092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+/* Top-nav Bar Section  */
+
+.navbar-text {
+  background-color:rgba(114, 18, 210, 0.966);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.navbar-text p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+    font-size: xx-large;
+
+}
+
+.navbar-text i,
+.navbar-text span {
+    vertical-align:middle;
+    font-size: x-large;
+
+}
+
+.social-links a {
+width: 34px;
+height: 34px;
+background-color: rgba(255, 255, 255, 0.5); 
+
+display: inline-flex;
+align-items: center;
+justify-content: center;
+color: #f1faf1;
+font-size: 20px;
+border-radius: 100%;
+
+}
+
+
+.social-links a:hover {
+    background-color: #ffffff;
+    color: #ff4d29;
+}
+
+
+
+/* Bottom Nav Bar Section*/
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+     color:#f64724;
+}
+.navbar-brand {
+    font-weight:bolder;
+    font-family: 26px;
+    color:#302e2e;
+    font-size: 38px;
+    
+}
+
+ .navbar-brand span {
+    color: #33A9FF;
+    font-size: 45px;
+} 
+.nav-link{
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+
+/* Contact Btn */
+
+.btn {
+ padding: 9px 24px;
+ font-weight: 500;
+ font-size: 25px;
+
+}
+
+.btn-brand{
+    background-color: #ff4d29;
+    color:#ffffff;
+    border-color:#090909 ;
+
+}
+
+.btn-brand:hover{
+    color: #f1faf1;
+    background-color: #232322;
+}
+
+
+/*Top Destinations*/
+
+
+.card {
+   
+   box-shadow:  5rem 5rem rgba(black, 15px);
+   margin: 2em;
+   
+} 
+
+.card p{
+  font-size: 1.5em;
+}
+
+/* Tour Packages Section */
+
+/* 1. Kanyakumari */
+
+/* 2. Trivandrum */
+
+/* 3. Rameshwaram */
+
+/* 4. Madurai */
+
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .heading h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color:#ffffff;
+    text-shadow: var(--text-shadow);
+ }
+
+ .name h1{
+    font-size: 4em;
+    color:#090909;
+    text-decoration: solid;
+    text-align: center;
+ }
+ .split {
+    text-align: center;   
+ }
+
+.split p{
+    font-size: 3rem;
+    text-decoration: solid;
+    font-style: italic;
+    color: #0f0fe0;
+
+}
+
+.split span {
+    font-size: 3rem;
+    text-decoration: solid;
+    font-style: italic;
+    color: #f64724;
+
+
+}
+ 
+.name-package p{
+    font-size: 5em;
+    text-align: center;
+    color: black;
+    text-decoration: solid;
+    font-style: italic;
+    font-weight: 600;
+    border-color: #090909;
+}
+
+
+/* Our Services Section*/
+
+/* Why You Choose Us Section */
+
+
+.titl {color: #fff3e9;position: relative; font-size: 6em; text-align: center; }
+.titl::before {
+  position: absolute;
+ 
+  top: 0;
+  bottom: 1.5em;
+  height: 0.5em;
+  width: 0.5em;
+  transform: rotate(45deg);
+  background-color: rgb(182, 204, 255);
+  box-shadow: 0px 4px 4px 0px #aaa;
+  border-radius: 4px;
+  content: '';
+}
+.titl::after {
+  position: absolute;
+  
+  top: 25px;
+  height: 0.5em;
+  width: 0.5em;
+  transform: rotate(45deg);
+  background-color: #2ffcd6;
+  box-shadow: 0px 4px 4px 0px rgb(54, 43, 43);
+  border-radius: 4px;
+  content: '';
+}
+
+.servi {
+    padding:40px;
+  position: relative;
+ 
+  background: url(./assets/img/back6.jpg)no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.servi .square {
+  height: 100px;
+  width: 100px;
+  margin: 30px auto 40px;
+  position: relative;
+  border-radius: 15px;
+  transform: rotate(45deg);
+  padding: 10px;
+  background-color:#ffb875;
+  box-shadow: 0px 0px 27px 0px #ccc;
+  border: 2px dotted #eaf3fa;
+}
+.square i {
+  transform: rotate(315deg);
+  display: block;
+  color: #090a0a;
+  font-size: 6em;
+  padding-top: 0em;
+  padding-right: 14px;
+}
+
+
+.services .square::before {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #fffefd;
+  content: '';
+}
+.servi .square::after {
+  position: absolute;
+  left: 50px;
+  top: 66px;
+  width: 1px;
+  height: 88%;
+  background-color:#fdf9f5;
+  content: '';
+  transform: rotate(90deg);
+}
+.servi .serv .num
+ {
+   width: 60px;
+   height: 60px;
+   background-color: #7499f1;
+   box-shadow: 0px 0px 15px 0px #00a9d3;
+   margin: -38px auto 15px auto;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 30px;
+    padding-top: 7px;
+    border: 1px dashed;
+  }
+.servi .serv p {
+    
+    color: #fffdfb;
+    font-size: 2.5em;
+    font-weight: 700;
+
+
+}
+
+.servi .serv hr {
+  width: 30px;
+  border-top: 3px solid rgb(255, 255, 255);
+}
+
+
+/*About us section*/
+
+/* Why You Choose Us Section */
+
+
+.about-us {
+  background: url(./assets/img/light-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  padding-right: 6em;
+  padding-left: 6em;
+  background-size: cover;
+  
+}
+
+
+/* =========== Discount ============ */
+
+
+.discount {
+  position: relative;
+  height: 60rem;
+}
+
+.discount .overlay {
+  position: relative;
+  height: 100%;
+}
+
+.discount .overlay::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--text-1);
+  opacity: 0.5;
+}
+
+.discount video {
+  object-fit: cover;
+}
+
+.discount .content {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+
+.discount .content h1 {
+  font-size: 5rem;
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+
+.discount .content span {
+  justify-content: center;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 4rem;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+ /* Responsive */
+
+@media (max-width: 567px) {
+  .discount {
+    height: 50rem;
+  }
+
+  .discount .content {
+    top: 50%;
+    width: 100%;
+  }
+
+  .discount .content h1 {
+    font-size: 3.5rem;
+   
+  }
+
+  .discount .content .btn {
+    padding: 1rem;
+  }
+
+  .discount .content span {
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+
+/* =========== Weekend Offer Section  ============ */
+
+.service .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.service .col p {
+  margin-bottom: 3rem;
+}
+
+.service .d-flex {
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.section .col .rating span {
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .service .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========== About  Us Page Section ============ */
+
+.about .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.about .swiper-container {
+  height: 50rem;
+  width: 50rem;
+}
+
+.about .swiper-wrapper {
+  height: 100% !important;
+}
+
+.about .swiper-slide {
+  height: 100% !important;
+}
+
+.about .col p {
+  margin-bottom: 3rem;
+}
+
+.about .col img,
+.about .col video {
+  object-fit: cover;
+  height: 80%;
+}
+
+.about .swiper-button-next::after,
+.about .swiper-button-prev::after {
+  content: "";
+}
+
+.about .swiper-button-next,
+.about .swiper-button-prev {
+  top: auto;
+  bottom: 6em;
+  background-color:(var(--white));
+  width: 5rem;
+  
+}
+
+.about .swiper-button-next {
+  right: 20px;
+  
+}
+
+.about .swiper-button-prev {
+  
+  right: 70px;
+bottom: 50%;
+  
+  
+}
+
+.about .swiper-icon {
+  font-size: 3rem;
+}
+
+@media (max-width: 996px) {
+  .about .swiper-container {
+    height: 30rem;
+    width: 35rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .row {
+    grid-template-columns: 1fr;
+  }
+
+  .about .swiper-container {
+    height: 40rem;
+    width: 45rem;
+  }
+}
+
+@media (max-width: 567px) {
+  .about .swiper-container {
+    height: 25rem;
+    width: 30rem;
+  }
+}
+
+/* Footer for all Page Section */
+
+footer{
+  margin-top: 4em;
+  background: #6f43d6;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+footer::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+  background: #AFAFB6;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #22c838;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+.link-boxes .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+.content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content .link-boxes .box li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+.content .link-boxes .box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #eeeeee;
+  background: #140B5C;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+}
+footer .bottom-details{
+  width: 100%;
+  background: #0F0844;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  .content .top .logo-details{
+    font-size: 26px;
+  }
+  .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  .content .top .media-icons{
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
+
+
+/*kanyakumari package*/
+
+/* Lay out*/
+
+.masonry {
+  columns: 4;
+  column-gap: 26px;
+}
+
+/* 
+  @media (max-width: 1200px) {
+    columns: 3;
+  
+  @media (max-width: 992px) {
+    columns: 2;
+  
+
+  @media (max-width: 768px){
+    
+    columns: 1;
+   */
+
+  .grid{
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+  }
+.grid:before {
+      border-radius: 5px;
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      background-color:rgba(0,0,0,.2);
+    
+    } 
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .grid-title {
+      font-size: x-large;
+      font-weight:300;
+      color: white;
+      text-transform: none;
+      background-color: darkgreen;
+      
+  
+    }
+   .grid-body:hover{
+    text-decoration: underline;
+    transition: 0.8s all ease-in-out;
+   }
+    .grid-body {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 30px 30px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+   
+.mt-auto {
+  margin-top:auto;
+}
+
+
+
+
+/* Booking Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 1.4rem;
+  background: transparent;
+  border: 1px solid black;
+}
+
+
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .carousel-item h1{
+    font-size: 5em;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+ }
+ .carousel-item p{
+   font-size: 2em;
+   font-weight: 300;
+   text-align: left;
+ }
+ 
+ .carousel-item h3{
+   font-size: 5em;
+   font-weight: 500;
+   text-align: left;
+   color: rgb(250, 246, 249);
+   
+   
+ }
+
+ .navbar-brand {
+  font-weight:bolder;
+  font-family: 26px;
+  color:#302e2e;
+  font-size: 38px;
+  
+}
+
+.title{
+  font-weight: 800;
+   font-size: 2em;
+}
+.navbar-text i,
+.navbar-text span {
+    vertical-align:middle;
+    font-size: 1.2em;
+
+}
+
+/*Our Services Section*/
+
+
+.list-group{
+	width: 600px !important;
+
+}
+
+.list-group-item{
+	margin-top:10px;
+	border-radius: none; 
+	background: #ff79cb;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+  font-size: 2.5em;
+}
+
+
+.list-group-item:hover{
+	transform: scaleX(1.1);
+}
+
+  .list-group-item a{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+   
+  }
+
+/*Back to Top Button*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: black; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(254, 46, 247); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 2em; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(236, 21, 21); /* Add a dark-grey background on hover */
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .carousel-item h1{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+ }
+ .carousel-item p{
+   font-size: 0.5em;
+   font-weight: 300;
+   text-align: left;
+ }
+ 
+ .carousel-item h3{
+   font-size: 2em;
+   font-weight: 500;
+   text-align: left;
+   color: white;
+ }
+
+ .navbar-brand {
+  font-weight:bolder;
+  font-family: 26px;
+  color:#302e2e;
+  font-size: 25px;
+  
+}
+
+.navbar-text i,
+.navbar-text span {
+    vertical-align:middle;
+    font-size: 0.9em;
+
+}
+
+.discount {
+  height: 10rem;
+}
+
+.discount .content {
+  top: 50%;
+  width: 100%;
+}
+
+.discount .content h1 {
+  font-size: 2.5rem;
+  margin-top: 18em;
+}
+
+.discount .content .btn {
+  padding: 1rem;
+}
+
+.discount .content span {
+  font-size: 3rem;
+  width: 5rem;
+  height: 5rem;
+  
+}
+.name h1{
+  font-size: 3em;
+  color:#090909;
+  text-decoration: solid;
+  text-align: center;
+}
+
+.name-package p{
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+  font-weight: 600;
+  border-color: #090909;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.heading h1{
+  font-size: 6rem;
+  text-transform: uppercase;
+  color:#ffffff;
+  text-shadow: var(--text-shadow);
+}
+
+.heading-1 h1{
+  font-size: 3rem;
+}
+
+.navbar-brand span {
+  color: #33A9FF;
+  font-size: 45px;
+}
+
+
+
+.masonry {
+  columns: 1;
+  column-gap: 26px;
+}
+
+/*Back to Top Button*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: black; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(254, 46, 247); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 2em; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(236, 21, 21); /* Add a dark-grey background on hover */
+}
+
+
+
+/*Big Package Section */
+
+.slider{
+  max-width: 1100px;
+  display: flex;
+  margin-left: 1em;
+  
+ 
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 13px;
+  font-weight: 900;
+  width: 5em;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+
+
+/*Our Services Section*/
+
+
+.list-group{
+	width: 600px !important;
+
+}
+
+.list-group-item{
+	margin-top:10px;
+	border-radius: none; 
+	background: #ff79cb;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+  font-size: 2.5em;
+}
+
+
+.list-group-item:hover{
+	transform: scaleX(1.1);
+}
+
+  .list-group-item a{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+   
+  }
+
+
+}
+/*=======Package Section=======*/
+
+.title{
+  font-weight: 800;
+}
+
+
+/*=======Package Section=======*/
+
+
+
+

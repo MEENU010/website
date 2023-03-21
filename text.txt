@@ -1,0 +1,115 @@
+<div class="masonry">
+  <div class="grid">
+    <img src="../assets/img/Vivekanantha Rock.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Vivekananda Rock Memorial</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/kan.2.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Thiruvalluvar Statue</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/kumari-ammam-templ.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Devi KumarI Temple</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/Gandhi_Memorial_Kanyakumari.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Gandhi Memorial</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/kamaraj sucess.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Kamaraj Memorial</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/triveni s.jpeg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Triveni Sangam</h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/kan-bharatmata.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Bharat Matha Temple</h1>
+      </div>
+      
+    </div>
+  </div>
+
+  
+
+  <div class="grid">
+    <img src="../assets/img/Vivekananda-Pictorial-Exhibition-kanyakumari.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Vivekananda Exhibition</h1>
+      </div>
+     
+    </div>
+  </div>
+
+
+  <div class="grid">
+    <img src="../assets/img/sunset.webp">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">kanyakumari sunset</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div class="grid">
+    <img src="../assets/img/church-5137461__340.jpg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Lady Ransom Church</h1>
+      </div>
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/sunrise 2jpeg.">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Kanyakumari sunrise</h1>
+      </div>
+    </div>
+  </div>
+  <div class="grid">
+    <img src="../assets/img/thirupathi-balaji-kan.jpeg">
+    <div class="grid-body">
+      <div class="relative">
+        <h1 class="grid-title">Thirupathi Balaji Temple</h1>
+      </div>
+    </div>
+  </div>
+
+  
+  </div>
+</div>
