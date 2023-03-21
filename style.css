@@ -236,7 +236,7 @@ border-radius: 100%;
     padding:40px;
   position: relative;
  
-  background: url(./assets/img/back6.jpg)no-repeat;
+  background: url(./background/back6.jpg)no-repeat;
   background-size: cover;
   background-attachment: fixed;
   
